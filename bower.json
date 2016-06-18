@@ -1,0 +1,10 @@
+{
+  "name": "scottpalmer.com",
+  "version": "1.0.1",
+  "description": "Theme for http://scottpalmer.com",
+  "license": "None",
+  "private": true,
+  "dependencies": {
+    "normalize.css": "latest"
+  }
+}

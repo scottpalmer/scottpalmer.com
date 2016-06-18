@@ -1,0 +1,51 @@
+*,
+*:before,
+&:after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+}
+
+html,
+html a {
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.006);
+}
+
+body {
+  background: @knight;
+  color: @font-color;
+  font-family: @lora;
+  font-size: @font-size;
+  font-weight: 400;
+  line-height: @line-height;
+  max-width: @max-width;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  line-height: @line-height + 0.2;
+}
+
+a,
+a:link,
+a:visited {
+  color: lighten(@font-color, 20%);
+  text-decoration: none;
+
+  &:hover {
+    color: @font-color;
+  }
+}
+
