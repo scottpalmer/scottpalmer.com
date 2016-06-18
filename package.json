@@ -1,0 +1,21 @@
+{
+  "name": "scottpalmer.com",
+  "version": "1.0.1",
+  "description": "Theme for http://scottpalmer.com",
+  "repository": "https://github.com/scottpalmer/scottpalmer.com",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-add-src": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-concat": "latest",
+    "gulp-jshint": "latest",
+    "gulp-less": "latest",
+    "gulp-livereload": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-rename": "latest",
+    "gulp-uglify": "latest",
+    "gulp-watch": "latest",
+    "jshint-stylish": "latest"
+  }
+}
