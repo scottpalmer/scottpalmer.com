@@ -1,46 +1,30 @@
 .content {
-  background: @white;
-  border: 1px solid #717171;
-  box-shadow: 0 4px 0 #717171;
   max-width: @max-width;
   margin-top: @margin;
   margin-right: @margin;
   margin-bottom: @margin;
   margin-left: @margin;
-  padding-top: @padding - 20;
-  padding-right: @padding - 20;
-  padding-bottom: @padding - 20;
-  padding-left: @padding - 20;
+
 
   @media screen and (min-width: @mobile) {
     margin-top: 150px;
-    padding-top: @padding;
-    padding-right: @padding;
-    padding-bottom: @padding;
-    padding-left: @padding;
   }
 
   .content--icons {
     a {
-      font-size: @font-size + 15;
+      font-size: @font-size + 8;
     }
   }
 
   h1 {
-    font-size: @font-size + 5;
-    font-weight: 100;
-    letter-spacing: 2px;
+    line-height: 0;
   }
 
+  h1,
   p {
     font-size: @font-size + 8;
-    font-weight: 700;
     letter-spacing: -1px;
     margin-top: 0;
     margin-bottom: 16px;
-
-    @media screen and (min-width: @mobile) {
-      font-size: @font-size + 22;
-    }
   }
 }
